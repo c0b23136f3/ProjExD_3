@@ -10,8 +10,14 @@ HEIGHT = 900  # ゲームウィンドウの高さ
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
-def Explosion():
-    exp = pg.transform.rotozoom(pg.image.load("fig/explosion.gif"), 0, 2.0)
+def Score():
+    self=0
+    self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
+    self.img = self.fonto.render(“表示させる文字列”, 0, 色)
+
+
+
+
 
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
