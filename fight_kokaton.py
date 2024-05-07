@@ -10,6 +10,9 @@ HEIGHT = 900  # ゲームウィンドウの高さ
 NUM_OF_BOMBS = 5  # 爆弾の数
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+def multibeam():
+    mult=0
+
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
     """
