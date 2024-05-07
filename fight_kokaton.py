@@ -13,6 +13,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def score():
     self=0
     sc=self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
+    class score:
+        c=0
 
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
