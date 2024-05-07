@@ -10,6 +10,10 @@ HEIGHT = 900  # ゲームウィンドウの高さ
 NUM_OF_BOMBS = 5  # 爆弾の数
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+def direction():
+    bird=1
+    self=0
+    self.dire=(+5,0)
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
     """
