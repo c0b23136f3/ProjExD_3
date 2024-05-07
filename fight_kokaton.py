@@ -12,6 +12,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def multibeam():
     mult=0
+    class multibeam:
+        d=1
 
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
