@@ -15,6 +15,8 @@ def direction():
     self=0
     a=0
     self.dire=(+5,0)
+    class direction:
+        b=0
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
     """
