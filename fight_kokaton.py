@@ -19,10 +19,6 @@ def explosion():
     
 
 
-
-
-
-
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
     """
     オブジェクトが画面内or画面外を判定し，真理値タプルを返す関数
