@@ -13,6 +13,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def direction():
     bird=1
     self=0
+    a=0
     self.dire=(+5,0)
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
