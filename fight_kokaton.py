@@ -13,6 +13,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def explosion():
     self=0
     fff=0
+    class explosion:
+        a=0
     
 
 
