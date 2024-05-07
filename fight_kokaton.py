@@ -10,10 +10,10 @@ HEIGHT = 900  # ゲームウィンドウの高さ
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
-def Score():
+def explosion():
     self=0
-    self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
-    self.img = self.fonto.render(“表示させる文字列”, 0, 色)
+    fff=0
+    
 
 
 
